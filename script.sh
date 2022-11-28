@@ -1,6 +1,5 @@
 #!/bin/bash
-
-curl -s https://api.testnet.run/logo.sh | bash && sleep 3
+echo -e ''
 
 GREEN="\e[32m"
 NC="\e[0m"
@@ -12,19 +11,19 @@ PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 
 dependea () {
-    echo -e ${PURPLE}"7&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#B5?~.             \e[0m"${NC}
-    echo -e ${PURPLE}" ^B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#Y~           \e[0m"${NC}
-    echo -e ${PURPLE}"  .Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G~         \e[0m"${NC}
-    echo -e ${PURPLE}"    ^!~~~~~~~~~~~~~~~~~~~~~~~!7JG&@@@@@@@J        \e[0m"${NC}
-    echo -e ${PURPLE}"               .......           :?#@@@@@@G:      \e[0m"${NC}
-    echo -e ${PURPLE}"              :G&&&&&&#!           .P@@@@@@&7     \e[0m"${NC}
-    echo -e ${PURPLE}"               .5@@@@@@@5JJJJJY~     ?&@@@@@@Y.   \e[0m"${NC}
-    echo -e ${PURPLE}"                 !#@@@@@@@@@@@@@Y     ^B@@@@@@B^  \e[0m"${NC}
-    echo -e ${PURPLE}"                  :P@@@@@@@@@@@@@B~    .5@@@@@@@? \e[0m"${NC}
-    echo -e ${PURPLE}"                    ?&@@@@@@@BPPPGP^     7GPPPPGG7\e[0m"${NC}
-    echo -e ${PURPLE}"                     ^B@@@@@@#!                   \e[0m"${NC}
-    echo -e ${PURPLE}"                      .Y@@@@@@@Y.                 \e[0m"${NC}
-    echo -e ${PURPLE}"                        !&@@@@@@G:                \e[0m"${NC}
+    echo -e "7&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#B5?~.             "
+    echo -e " ^B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#Y~           "
+    echo -e "  .Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G~         "
+    echo -e "    ^!~~~~~~~~~~~~~~~~~~~~~~~!7JG&@@@@@@@J        "
+    echo -e "               .......           :?#@@@@@@G:      "
+    echo -e "              :G&&&&&&#!           .P@@@@@@&7     "
+    echo -e "               .5@@@@@@@5JJJJJY~     ?&@@@@@@Y.   "
+    echo -e "                 !#@@@@@@@@@@@@@Y     ^B@@@@@@B^  "
+    echo -e "                  :P@@@@@@@@@@@@@B~    .5@@@@@@@? "
+    echo -e "                    ?&@@@@@@@BPPPGP^     7GPPPPGG7"
+    echo -e "                     ^B@@@@@@#!                   "
+    echo -e "                      .Y@@@@@@@Y.                 "
+    echo -e "                        !&@@@@@@G:                "
 }
 
 
