@@ -20,19 +20,21 @@ CYAN='\033[0;36m'
 clear;
 
 dependences () {
-    echo -e {PURPLE}"7&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#B5?~.             "${NC}
-    echo -e {PURPLE}" ^B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#Y~           "${NC}
-    echo -e {PURPLE}"  .Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G~         "${NC}
-    echo -e {PURPLE}"    ^!~~~~~~~~~~~~~~~~~~~~~~~!7JG&@@@@@@@J        "${NC}
-    echo -e {PURPLE}"               .......           :?#@@@@@@G:      "${NC}
-    echo -e {PURPLE}"              :G&&&&&&#!           .P@@@@@@&7     "${NC}
-    echo -e {PURPLE}"               .5@@@@@@@5JJJJJY~     ?&@@@@@@Y.   "${NC}
-    echo -e {PURPLE}"                 !#@@@@@@@@@@@@@Y     ^B@@@@@@B^  "${NC}
-    echo -e {PURPLE}"                  :P@@@@@@@@@@@@@B~    .5@@@@@@@? "${NC}
-    echo -e {PURPLE}"                    ?&@@@@@@@BPPPGP^     7GPPPPGG7"${NC}
-    echo -e {PURPLE}"                     ^B@@@@@@#!                   "${NC}
-    echo -e {PURPLE}"                      .Y@@@@@@@Y.                 "${NC}
-    echo -e {PURPLE}"                        !&@@@@@@G:                "${NC}
+    echo -e '\e[0;36m'
+    echo -e "7&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#B5?~.             "
+    echo -e " ^B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#Y~           "
+    echo -e "  .Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G~         "
+    echo -e "    ^!~~~~~~~~~~~~~~~~~~~~~~~!7JG&@@@@@@@J        "
+    echo -e "               .......           :?#@@@@@@G:      "
+    echo -e "              :G&&&&&&#!           .P@@@@@@&7     "
+    echo -e "               .5@@@@@@@5JJJJJY~     ?&@@@@@@Y.   "
+    echo -e "                 !#@@@@@@@@@@@@@Y     ^B@@@@@@B^  "
+    echo -e "                  :P@@@@@@@@@@@@@B~    .5@@@@@@@? "
+    echo -e "                    ?&@@@@@@@BPPPGP^     7GPPPPGG7"
+    echo -e "                     ^B@@@@@@#!                   "
+    echo -e "                      .Y@@@@@@@Y.                 "
+    echo -e "                        !&@@@@@@G:                "
+    echo -e '\e[0m'
 
     echo -e sudo apt install screen
 
