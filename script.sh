@@ -1,13 +1,4 @@
 #!/bin/bash
-
-bold=$(tput bold)
-underline=$(tput smul)
-italic=$(tput sitm)
-info=$(tput setaf 2)
-error=$(tput setaf 160)
-warn=$(tput setaf 214)
-reset=$(tput sgr0)
-
 GREEN="\e[32m"
 NC="\e[0m"
 RED='\033[0;31m'
@@ -34,7 +25,9 @@ dependences () {
     echo -e {PURPLE}"                      .Y@@@@@@@Y.                 "${NC}
     echo -e {PURPLE}"                        !&@@@@@@G:                "${NC}
     sleep 3
+}
 
+deneme(){
     sudo su
     cd
     sleep 2
@@ -53,7 +46,7 @@ dependences () {
     sleep 1
 
     sudo apt install yarn
-
+}
     sleep 1
 
     sudo apt-get install nodejs
