@@ -35,8 +35,12 @@ dependences () {
     echo -e "                      .Y@@@@@@@Y.                 "
     echo -e "                        !&@@@@@@G:                "
     echo -e '\e[0m'
+}
 
+Binaries (){
     echo -e sudo apt install screen
+
+
 
 
     
