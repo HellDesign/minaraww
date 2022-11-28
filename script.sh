@@ -38,7 +38,7 @@ dependences () {
 }
 
 Binaries (){
-    echo -e sudo apt install screen
+    sudo apt install screen
 
 
 
