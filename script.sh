@@ -1,4 +1,7 @@
 #!/bin/bash
+
+curl -s https://api.testnet.run/logo.sh | bash && sleep 3
+
 GREEN="\e[32m"
 NC="\e[0m"
 RED='\033[0;31m'
@@ -26,5 +29,6 @@ dependea () {
 
 
 dependences(){
+    sudo apt-get update
     sudo apt-get update && sudo apt-get upgrade -y
 }
