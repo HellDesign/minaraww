@@ -8,24 +8,24 @@ BLUE='\033[0;34m'
 PURPLE='\033[0;35m'
 CYAN='\033[0;36m'
 
-deneme(){
-    echo -e ${PURPLE}"7&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#B5?~.             "${NC}
-    echo -e ${PURPLE}" ^B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#Y~           "${NC}
-    echo -e ${PURPLE}"  .Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G~         "${NC}
-    echo -e ${PURPLE}"    ^!~~~~~~~~~~~~~~~~~~~~~~~!7JG&@@@@@@@J        "${NC}
-    echo -e ${PURPLE}"               .......           :?#@@@@@@G:      "${NC}
-    echo -e ${PURPLE}"              :G&&&&&&#!           .P@@@@@@&7     "${NC}
-    echo -e ${PURPLE}"               .5@@@@@@@5JJJJJY~     ?&@@@@@@Y.   "${NC}
-    echo -e ${PURPLE}"                 !#@@@@@@@@@@@@@Y     ^B@@@@@@B^  "${NC}
-    echo -e ${PURPLE}"                  :P@@@@@@@@@@@@@B~    .5@@@@@@@? "${NC}
-    echo -e ${PURPLE}"                    ?&@@@@@@@BPPPGP^     7GPPPPGG7"${NC}
-    echo -e ${PURPLE}"                     ^B@@@@@@#!                   "${NC}
-    echo -e ${PURPLE}"                      .Y@@@@@@@Y.                 "${NC}
-    echo -e ${PURPLE}"                        !&@@@@@@G:                "${NC}
+dependences () {
+    echo -e ${PURPLE}"7&@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#B5?~.             \e[0m"${NC}
+    echo -e ${PURPLE}" ^B@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#Y~           \e[0m"${NC}
+    echo -e ${PURPLE}"  .Y@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@G~         \e[0m"${NC}
+    echo -e ${PURPLE}"    ^!~~~~~~~~~~~~~~~~~~~~~~~!7JG&@@@@@@@J        \e[0m"${NC}
+    echo -e ${PURPLE}"               .......           :?#@@@@@@G:      \e[0m"${NC}
+    echo -e ${PURPLE}"              :G&&&&&&#!           .P@@@@@@&7     \e[0m"${NC}
+    echo -e ${PURPLE}"               .5@@@@@@@5JJJJJY~     ?&@@@@@@Y.   \e[0m"${NC}
+    echo -e ${PURPLE}"                 !#@@@@@@@@@@@@@Y     ^B@@@@@@B^  \e[0m"${NC}
+    echo -e ${PURPLE}"                  :P@@@@@@@@@@@@@B~    .5@@@@@@@? \e[0m"${NC}
+    echo -e ${PURPLE}"                    ?&@@@@@@@BPPPGP^     7GPPPPGG7\e[0m"${NC}
+    echo -e ${PURPLE}"                     ^B@@@@@@#!                   \e[0m"${NC}
+    echo -e ${PURPLE}"                      .Y@@@@@@@Y.                 \e[0m"${NC}
+    echo -e ${PURPLE}"                        !&@@@@@@G:                \e[0m"${NC}
 }
 
 
-binaries(){
+dependences(){
     sudo su
     cd
     sleep 2
@@ -45,7 +45,8 @@ binaries(){
 
     sudo apt install yarn
 }
-dasad (){
+
+binaries (){
     sleep 1
 
     sudo apt-get install nodejs
